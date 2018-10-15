@@ -103,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                 . "<i class='material-icons'>edit</i></button></a>"; 
                                         echo "&nbsp;&nbsp;<a href = '".base_url()."index.php/carcompanycontroller/deletecar/".$row->id."'>"
                                                 . "<button type='button' class='btn bg-deep-orange btn-circle waves-effect waves-circle waves-float' title='Delete'>"
-                                                ."<i class='material-icons'>delete</i></button></a>"; 
+                                                ."<i class='material-icons'>delete</i></button></a>";
                                         echo "&nbsp;&nbsp;<a href = '".base_url()."index.php/carcompanycontroller/carcompanyview/".$row->id."'>"
                                                 . "<button type='button' class='btn bg-blue btn-circle waves-effect waves-circle waves-float' title='View'>"
                                                 ."<i class='material-icons'>pageview</i></button></a></td>"; 
@@ -137,7 +137,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="<?php echo base_url(); ?>static/mdesign/plugins/node-waves/waves.js"></script>
 
     <!-- Custom Js -->
-    <script src="<?php echo base_url(); ?>static/mdesign/js/admin.js"></script>
+    <!--script src="<?php //echo base_url(); ?>static/mdesign/js/admin.js"></script-->
 
     <!-- Demo Js -->
     <script src="<?php echo base_url(); ?>static/mdesign/js/demo.js"></script>
@@ -145,5 +145,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Demo Js -->
     <script src="<?php echo base_url(); ?>static/mdesign/js/demo.js"></script>
     
+
 </body>
 </html>

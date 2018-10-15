@@ -93,18 +93,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                              <?php echo $row->model; ?>
                         </div>
                     </div>
-                    <!--div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">    
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">    
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
                             <label for="image"> Image  : </label>
                             &nbsp;
-                            <img src="<?php //echo $row->image; ?>" width="30%" height="30%">
-                        </div>
-                    </div-->
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">    
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
-                            <label for="status">Age  : </label>
-                            &nbsp;
-                             <?php echo $row->status; ?>
+                            <img class="img-responsive thumbnail" src="<?php echo $row->image; ?>">
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">    

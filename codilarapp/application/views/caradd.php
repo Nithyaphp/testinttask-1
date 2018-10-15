@@ -94,6 +94,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-control-label">
+                                <label for="image">Image<span style="color:red;">*</span></label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="file" id="image" required="required" accept="image/jpg,image/gif,image/jpeg,image/png" name="image" class="form-control" placeholder="image"><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!--div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 form-control-label">
                                 <label for="image">Image<span style="color:red;">*</span></label>
@@ -205,10 +217,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 }
             });*/
         });
-        
-       
-        
-        
     </script>
 </body>
 </html>

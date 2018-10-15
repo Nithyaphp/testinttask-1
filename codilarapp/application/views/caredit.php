@@ -95,6 +95,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-control-label">
+                                <label for="image">Image</label>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="file" id="image" accept="image/jpg,image/gif,image/jpeg,image/png" name="image" class="form-control" placeholder="image"><br>
+                                    </div>
+                                    <div class="help-info" id="imgfile">
+                                        <p id="ext">upload only jpg,gif,jpeg,png files</p>
+                                        <p id="size">Size greater than equal to 5kb</p>
+                                    </div>
+                                    <div>
+                                        <?php 
+                                        if($row->image){ ?>
+                                            <img class="img-responsive thumbnail" src="<?php echo $row->image; ?>">
+                                        <?php } ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <!--div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 form-control-label">
                                 <label for="image">Image<span style="color:red;">*</span></label>
